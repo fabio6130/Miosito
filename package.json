@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "migrate": "^1.8.0"
+  }
+}

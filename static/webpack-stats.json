@@ -1,0 +1,19 @@
+{
+  "status": "done",
+  "assets": {
+    "bundle-d615c8249850eb226137.css": {
+      "name": "bundle-d615c8249850eb226137.css",
+      "path": "/home/fabio/prova/miosito_progetto/static/src/assets/dist/bundle-d615c8249850eb226137.css"
+    },
+    "bundle.js": {
+      "name": "bundle.js",
+      "path": "/home/fabio/prova/miosito_progetto/static/src/assets/dist/bundle.js"
+    }
+  },
+  "chunks": {
+    "bundle": [
+      "bundle-d615c8249850eb226137.css",
+      "bundle.js"
+    ]
+  }
+}
