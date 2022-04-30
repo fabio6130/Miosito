@@ -3,21 +3,25 @@ from django.shortcuts import render
 
 from django.http import HttpResponse
 from django.views import View
-from .models import Interesse,Abilita,Passione,ProgettiFatti
+from .models import Companies,Projects,Languages,DevTools
 
 class HomeView(View):
     template_name = 'miosito_app/homepage/homepage.html'
 
     def get_context(self):
-        interessi = Interesse.objects.all()
-        abilita = Abilita.objects.all()
-        passioni = Passione.objects.all()
-        progettifatti=ProgettiFatti.objects.all()
+        companies = Companies.objects.all()
+        projects = Projects.objects.all()
+        languages = Languages.objects.all()
+        if languages:
+            languages_frontend=languages.filter(frontend=True)
+            languages_backend=languages.filter(frontend=False)
+        devtools=DevTools.objects.all()
         context = {
-            'interessi':interessi,
-            'abilita':abilita,
-            'passioni':passioni,
-            'progettifatti':progettifatti,
+            'companies':companies,
+            'projects':projects,
+            'languages_frontend':languages_frontend,
+            'languages_backend':languages_backend,
+            'devtools':devtools,
 
             
         }
@@ -25,3 +29,4 @@ class HomeView(View):
 
     def get(self, request):
         return render(request, self.template_name, self.get_context())
+    

@@ -1,9 +1,9 @@
 {
   "status": "done",
   "assets": {
-    "bundle-d615c8249850eb226137.css": {
-      "name": "bundle-d615c8249850eb226137.css",
-      "path": "/home/fabio/prova/miosito_progetto/static/src/assets/dist/bundle-d615c8249850eb226137.css"
+    "bundle-730f08d05945be9db75b.css": {
+      "name": "bundle-730f08d05945be9db75b.css",
+      "path": "/home/fabio/prova/miosito_progetto/static/src/assets/dist/bundle-730f08d05945be9db75b.css"
     },
     "bundle.js": {
       "name": "bundle.js",
@@ -12,7 +12,7 @@
   },
   "chunks": {
     "bundle": [
-      "bundle-d615c8249850eb226137.css",
+      "bundle-730f08d05945be9db75b.css",
       "bundle.js"
     ]
   }
