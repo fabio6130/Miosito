@@ -1,16 +1,21 @@
 <div class="container mb-4">
-    <div class="mt-4 text-center">
+    <div class="mt-5 text-center">
 
         <h3 class="title">My recent work</h3>
         <h5 class="subtitle">Here are a few design projects I've worked on recently. Want to see more? Email me.</h5>
 
-        <div class="row">
-            {% for element in abilita %}
-            <div class="col-4">ciao</div>
+        <div class="row mt-4">
+            {% for project in projects %}
+            <div class="col-lg-4 col-12">
+                <div class="card rounded border border-4 border border-primary" style=" border-color: #7510F7 !important;">
+                    <img src="{{project.image.url}}" class="img-fluid image-card-project">
+                </div>
+            </div>
             {% endfor %}
         </div>
-        
-        <button type="button" class="btn btn-primary mt-4 rounded-pill mb-2 btn-lg "><i class="fa-solid fa-basketball"></i> Vedi altri progetti su Linkedin</button>
+
+        <button type="button" class="btn btn-primary mt-5 rounded-pill mb-3 btn-lg "><i
+                class="fa-solid fa-basketball"></i> Vedi altri progetti su Linkedin</button>
 
 
     </div>

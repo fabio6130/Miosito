@@ -1,18 +1,42 @@
 {
   "status": "done",
   "assets": {
-    "bundle-730f08d05945be9db75b.css": {
-      "name": "bundle-730f08d05945be9db75b.css",
-      "path": "/home/fabio/prova/miosito_progetto/static/src/assets/dist/bundle-730f08d05945be9db75b.css"
+    "bundle-6e79834dcb7fa66b37ef.css": {
+      "name": "bundle-6e79834dcb7fa66b37ef.css",
+      "path": "/home/fabio/prova/miosito_progetto/static/src/assets/dist/bundle-6e79834dcb7fa66b37ef.css"
     },
     "bundle.js": {
       "name": "bundle.js",
       "path": "/home/fabio/prova/miosito_progetto/static/src/assets/dist/bundle.js"
+    },
+    "bundle-35a77b04ed7c579d614b.css": {
+      "name": "bundle-35a77b04ed7c579d614b.css",
+      "path": "/home/fabio/prova/miosito_progetto/static/src/assets/dist/bundle-35a77b04ed7c579d614b.css"
+    },
+    "bundle-dff499e31011bff7dce6.css": {
+      "name": "bundle-dff499e31011bff7dce6.css",
+      "path": "/home/fabio/prova/miosito_progetto/static/src/assets/dist/bundle-dff499e31011bff7dce6.css"
+    },
+    "bundle-48cc51a6dd3c4da93a97.css": {
+      "name": "bundle-48cc51a6dd3c4da93a97.css",
+      "path": "/home/fabio/prova/miosito_progetto/static/src/assets/dist/bundle-48cc51a6dd3c4da93a97.css"
+    },
+    "bundle-3b520218f7f0ebf0528f.css": {
+      "name": "bundle-3b520218f7f0ebf0528f.css",
+      "path": "/home/fabio/prova/miosito_progetto/static/src/assets/dist/bundle-3b520218f7f0ebf0528f.css"
+    },
+    "bundle-0c52bbec05253bad967f.css": {
+      "name": "bundle-0c52bbec05253bad967f.css",
+      "path": "/home/fabio/prova/miosito_progetto/static/src/assets/dist/bundle-0c52bbec05253bad967f.css"
+    },
+    "bundle-83c5c6754dcbce37ce94.css": {
+      "name": "bundle-83c5c6754dcbce37ce94.css",
+      "path": "/home/fabio/prova/miosito_progetto/static/src/assets/dist/bundle-83c5c6754dcbce37ce94.css"
     }
   },
   "chunks": {
     "bundle": [
-      "bundle-730f08d05945be9db75b.css",
+      "bundle-83c5c6754dcbce37ce94.css",
       "bundle.js"
     ]
   }
